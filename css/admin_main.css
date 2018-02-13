@@ -1,0 +1,103 @@
+ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2018, 7:36:19 PM
+    Author     : Asma
+*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    background-color:#e1e8e4;
+   
+    
+}
+/*.head_left{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 60%;
+    background-color: blueviolet;
+}
+.head_right{
+    margin: 0px 20px 10px 100px;
+    padding:0;
+    float:right;
+    display: block;
+}*/
+
+
+.aside{
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    height: 600px;
+    background-color:#e1e8e4;
+    display: block;
+   
+}
+.aside ul{
+   margin: 0;
+    padding: 0;
+    
+}
+.aside li{
+    margin: 15px;
+   padding:10px 25px ;
+	background: #5280c9;
+	border-radius: 5px;
+    display:block;
+    font-size: 18px;
+    
+}
+.aside ul li a{
+    color: white;
+}
+.menu{
+    padding-right: 30px;
+    margin: 0;
+    text-decoration: none;
+    background-color: #495568;
+    text-align: right;
+    border-color:#495568 ;
+    list-style-type: none;
+    border-radius: 5px;
+    display: block;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    margin: 5px;
+   padding:10px 30px ;
+	background: #5280c9;
+	color: #fff;
+	border-radius: 5px;
+    display: inline-block;
+    
+}
+.menu ul li a{
+    color: white;
+}
+ 
+ul li :hover{
+	background: #993066;
+        text-decoration:none;
+}
+ 
+.footer{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #495568;
+}
